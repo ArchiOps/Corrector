@@ -1,0 +1,28 @@
+{
+	"tests": [
+		{
+			"input": "2025",
+			"next": [
+				{
+					"conditions": {
+						"type": "find",
+						"value": "False"
+					},
+					"reward": 50
+				}
+			]
+		},
+		{
+			"input": "2024",
+			"next": [
+				{
+					"conditions": {
+						"type": "find",
+						"value": "True"
+					},
+					"reward": 50
+				}
+			]
+		}
+	]
+}
