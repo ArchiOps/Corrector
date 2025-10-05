@@ -1,0 +1,19 @@
+{
+  "Python": {
+    "Extensions": [".py"],
+    "Executions": [
+      "python3 %s",
+      "python %s",
+      "py %s"
+    ]
+  },
+  "C": {
+    "Extensions": [".c"],
+    "Compilations": [
+      "gcc %s -o %s"
+    ],
+    "Executions": [
+      "%s"
+    ]
+  }
+}
